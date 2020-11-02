@@ -1,0 +1,4 @@
+(function() {var implementors = {};
+implementors["hashbrown"] = [{"text":"impl&lt;K, V, S&gt; FromParallelIterator&lt;(K, V)&gt; for HashMap&lt;K, V, S, Global&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;K: Eq + Hash + Send,<br>&nbsp;&nbsp;&nbsp;&nbsp;V: Send,<br>&nbsp;&nbsp;&nbsp;&nbsp;S: BuildHasher + Default,&nbsp;</span>","synthetic":false,"types":[]},{"text":"impl&lt;T, S&gt; FromParallelIterator&lt;T&gt; for HashSet&lt;T, S, Global&gt; <span class=\"where fmt-newline\">where<br>&nbsp;&nbsp;&nbsp;&nbsp;T: Eq + Hash + Send,<br>&nbsp;&nbsp;&nbsp;&nbsp;S: BuildHasher + Default,&nbsp;</span>","synthetic":false,"types":[]}];
+implementors["rayon"] = [];
+if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
